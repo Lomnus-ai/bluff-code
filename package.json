@@ -1,0 +1,27 @@
+{
+  "name": "bluff-code",
+  "version": "1.0.0",
+  "description": "A pretend AI coding CLI. Looks the part. Codes nothing.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "bluff": "./src/cli.tsx"
+  },
+  "scripts": {
+    "dev": "bun src/cli.tsx",
+    "start": "bun src/cli.tsx",
+    "typecheck": "tsc --noEmit",
+    "build": "bun build src/cli.tsx --target=bun --outfile=dist/bluff.js",
+    "build:binary": "bun build --compile src/cli.tsx --outfile bluff"
+  },
+  "dependencies": {
+    "ink": "^5.0.1",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "bun-types": "latest",
+    "typescript": "^5.5.0"
+  }
+}
