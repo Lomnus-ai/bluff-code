@@ -4,24 +4,7 @@ A pretend AI coding CLI. Looks the part. Codes nothing.
 
 > All performance, no implementation.
 
-```
-● Read(src/auth/login.ts)
-  ⎿  Read 142 lines
-
-● Grep(pattern: "validateSession", glob: "**/*.ts")
-  ⎿  Found 4 matches in 3 files
-
-● Edit(src/auth/login.ts)
-  ⎿  Updated src/auth/login.ts with 7 additions and 2 removals
-
-● Bash(npm test -- auth)
-  ⎿  PASS  src/__tests__/login.test.ts
-       ✓ accepts valid credentials (14 ms)
-       ✓ rejects expired sessions (8 ms)
-     Tests: 2 passed, 2 total
-
-That should do it.
-```
+![bluff-code in one-shot mode](./docs/screenshots/oneshot.png)
 
 ## Why
 
@@ -84,6 +67,8 @@ Multi-turn interactive session with a boxed input at the bottom and scrollback
 above. Tracks turn history, files "seen", and recent scenarios so the same arc
 doesn't fire twice in a row.
 
+![REPL mode (zen vibe)](./docs/screenshots/repl.png)
+
 Slash commands:
 
 | Command | Effect |
@@ -105,6 +90,8 @@ ambient-only scenarios:
 
 - `failed-test-then-fix` — runs tests, sees a failure, traces, edits, re-runs, passes
 - `cargo-cult-debug` — only fires under `--vibe doomer`; edits and re-tests in a loop, never converging
+
+![Ambient mode mid-arc with doomer vibe — failing test in red](./docs/screenshots/ambient.png)
 
 ## Vibes
 
