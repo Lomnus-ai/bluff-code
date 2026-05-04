@@ -187,9 +187,6 @@ CLI Entry → Mode (one-shot / REPL / ambient)
        Renderer (Ink) ←─ streamBeats with per-vibe jitter
 ```
 
-Full architecture and design rationale in [DESIGN.md](./DESIGN.md). Chinese
-translation in [DESIGN.zh.md](./DESIGN.zh.md).
-
 ## Tech stack
 
 - [Bun](https://bun.sh) — runtime + bundler (single-binary builds via `bun build --compile`)

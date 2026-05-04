@@ -27,3 +27,7 @@ bun-debug.log*
 
 # Source maps — never publish these (you've read the README of ~/Project/claude-code)
 *.map
+
+# Internal design docs — kept on disk, not published
+DESIGN.md
+DESIGN.zh.md

@@ -86,4 +86,3 @@ Feature-complete release.
 ### Added
 - Initial scaffold (Bun + TypeScript + React + Ink)
 - `package.json`, `tsconfig.json`, `.gitignore`, MIT `LICENSE`, README
-- `DESIGN.md` and Chinese translation `DESIGN.zh.md`
